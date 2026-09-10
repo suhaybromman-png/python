@@ -1,0 +1,5 @@
+python -m venv .venv
+source .venv\scripts\activate
+pip install requests 
+pipfreeze > requirments.txt
+git commit -m "add requirments.txt"
